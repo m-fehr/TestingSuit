@@ -1,0 +1,16 @@
+## Bilder einbinden
+
+Dieser Abschnitt beschäftigt sich mit dem einbinden von Bilder, Bildunterschriften und Labels.
+
+``` markdown
+![dummy image](functions/test_image.jpg){#fig-logo  width=1in}
+```
+Erzeugt eine Graphik mit dem Titel "dummy image" mit dem Referenzierbaren Label "fig-logo" mit einer Breite vin 1in.
+
+Mit "fig-align=" kann man wie im folgenden zu sehen entweder linksbündig ("left"), zentriert ("center", Standart) und rechtsbündig ("right") ausrichten. Die Bildunterschrift ist dabei immer linksbündig ausgerichtet.
+
+![dummy image](functions/test_image.jpg){fig-align="left" #fig-logol  width=1in}
+
+![dummy image](functions/test_image.jpg){fig-align="center" #fig-logoc  width=1in}
+
+![dummy image](functions/test_image.jpg){fig-align="right" #fig-logor  width=1in}

@@ -109,6 +109,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Mit Hilfe der Funktion:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>{{&lt; include _content.qmd &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
+<section id="bilder-einbinden" class="level2">
+<h2 class="anchored" data-anchor-id="bilder-einbinden">Bilder einbinden</h2>
+<p>Dieser Abschnitt beschäftigt sich mit dem einbinden von Bilder, Bildunterschriften und Labels.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="al">![dummy image](functions/test_image.jpg)</span>{#fig-logo  width=1in}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Erzeugt eine Graphik mit dem Titel “dummy image” mit dem Referenzierbaren Label “fig-logo” mit einer Breite vin 1in.</p>
+<p>Mit “fig-align=” kann man wie im folgenden zu sehen entweder linksbündig (“left”), zentriert (“center”, Standart) und rechtsbündig (“right”) ausrichten. Die Bildunterschrift ist dabei immer linksbündig ausgerichtet.</p>
+<div id="fig-logol" class="quarto-figure quarto-figure-left quarto-float anchored" data-fig-align="left">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-logol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="functions/test_image.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img" style="width:1in">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-logol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: dummy image
+</figcaption>
+</figure>
+</div>
+<div id="fig-logoc" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-logoc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="functions/test_image.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:1in">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-logoc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: dummy image
+</figcaption>
+</figure>
+</div>
+<div id="fig-logor" class="quarto-figure quarto-figure-right quarto-float anchored" data-fig-align="right">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-logor-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="functions/test_image.jpg" class="img-fluid quarto-figure quarto-figure-right figure-img" style="width:1in">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-logor-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: dummy image
+</figcaption>
+</figure>
+</div>
+</section>
 
 </main>
 <!-- /main column -->

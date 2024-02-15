@@ -11,3 +11,5 @@ MWE's zu haben. Der erste Test ist damit auch die include
 Funktion.
 
 {{< include functions/einbinden.qmd >}}
+
+{{< include functions/bilder.qmd >}}
