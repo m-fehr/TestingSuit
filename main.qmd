@@ -1,0 +1,13 @@
+---
+title: "Testing Suit"
+---
+
+## Overview
+
+Dies ist ein Dokument um einzelne Funktionen zu testen.
+Alle Funktionen werden in einzelnen Dokumenten eingebunden
+um mögliche Bugs leichter herauszufiltern und um direkt 
+MWE's zu haben. Der erste Test ist damit auch die include
+Funktion.
+
+{{< include functions/einbinden.qmd >}}

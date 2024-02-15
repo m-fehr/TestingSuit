@@ -1,0 +1,15 @@
+## Include Funktion
+
+Dieser Text ist einer seperaten Ordnerstruktur aufgeführt.
+DIe Ordnerstruktur sieht folgendermaßen aus:
+
+``` markdown
+main.qmd
+functions
+    -einbinden.qmd
+```
+Mit Hilfe der Funktion:
+
+``` markdown
+{{{< include _content.qmd >}}}
+```
