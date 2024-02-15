@@ -1,3 +1,6 @@
 # Rendered files
 *.html
 !main.html
+
+*_files/
+!main_files/
